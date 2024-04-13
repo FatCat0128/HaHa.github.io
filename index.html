@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/my_styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -38,7 +39,12 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="/assets/rickroll_4k5724250.jpg" alt="..." />
+                <div class="masthead-avatar mb-5">
+                    <img src="/assets/rickroll_4k5724250.jpg" 
+                    onmouseover="this.src='/assets/rickroll_4k572.jpg';"
+                    onmouseout="this.src='/assets/rickroll_4k5724250.jpg';" height="180">
+                
+                </div>
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">猜猜我是誰</h1>
                 <!-- Icon Divider-->
